@@ -1,0 +1,14 @@
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Product.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/BillingAddress.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/PaymentAction.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/CartItem.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Customer.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/ServerLogger.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Cart.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/SalesOrder.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/User.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Authorities.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/Logger.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/ApplicationConfig.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/ShippingAddress.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/Applications.java
