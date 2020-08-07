@@ -21,8 +21,57 @@ public class CustomerDao {
 	private SessionFactory sessionFactory;
 	
 	public void addCustomer(Customer customer) {
+		customer.getUser().setEnabled(true);
 		
+		Authorities authorities = new Authorities();
+		authorities.setAuthorities("ROLE_USER");
+		authorities.setEmailId(customer.getUser().getEmailId());
+
+		Cart cart = new Cart();
+		cart.setCustomer(customer);
+		customer.setCart(cart);
+		
+		Session session = null;
+		
+		try {
+			session = sessionFactory.openSession();
+			session.beginTransaction();
+			session.save(customer);
+			session.save(authorities);
+			session.getTransaction().commit();
+		}  catch (Exception e) {
+			e.printStackTrace();
+			session.getTransaction().rollback();
+		} finally {
+			if (session != null) {
+				session.close();
+			}
+		}
 	}
 	
-	
+	public Customer getCustomerByUserName(String userName) {
+		User user = null;
+		Session session = null;
+		try {
+			session = sessionFactory.openSession();
+            session.beginTransaction();
+			CriteriaBuilder builder = session.getCriteriaBuilder();
+			CriteriaQuery<User> criteriaQuery = builder.createQuery(User.class);
+			Root<User> root = criteriaQuery.from(User.class);
+			criteriaQuery.select(root).where(builder.equal(root.get("emailId"), userName));
+			user = session.createQuery(criteriaQuery).getSingleResult();
+                    session.getTransaction().commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+			session.getTransaction().rollback();
+		} finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+		if (user != null)
+			return user.getCustomer();
+		return null;
+	}
+
 }
