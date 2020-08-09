@@ -4,10 +4,13 @@
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/dao/CustomerDao.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Cart.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/RegistrationController.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/service/CartItemService.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/SalesOrder.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/User.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/service/CartService.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/dao/CartDao.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/dao/CartItemDao.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/CartItemController.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/ApplicationConfig.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/CartController.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Product.java
