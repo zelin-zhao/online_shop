@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	font-family: "Times New Roman", Times, serif;
 }
 /* Slider */
 .carousel-inner>.item>img{
@@ -8,12 +9,44 @@ html, body {
 }
 .container{
 	margin-top: -20px;
-	width:1335px;
+
+}
+.login-panel{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-md-4{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media screen {
+	.container{
+	width: 100%;
+	}
 }
 .jumbotron{
 	background-color:#FFFFFF;
-	padding-top:45px;
+	padding-top:84px;
 	padding-bottom:30px;
+}
+.btn-success{
+	background-color: #006400;
+	border: none;
+}
+.btn-danger{
+	background-color: #8b0000;
+	border: none;
+}
+.btn-info{
+	background-color: #006666;
+	border: none;
+}
+.btn-primary{
+	background-color: #004c99;
+	border: none;
 }
 
 /* Navigation bar */
@@ -38,27 +71,46 @@ html, body {
 }
 
 .navbar{
-	min-height: 50px;
+	min-height: 0px;
 	margin-bottom: -4px;
 	padding-left: 10px;
+	width: 100%;
 }
 .navbar-inverse{
-	background-color:#232f3e;
-	border-color:#232f3e;
+	background-color:#000000;
+	border-color:#000000;
+	height:180px;
+	width: 100%;
+}
+.nav-center{
+	font-size: 100px;
+	color:#FFFFFF;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.nav-center-low{
+	font-size: 13px;
+	color:#FFFFFF;
+    text-align: center;
+    margin-top: -10px;
+}
+.navbar-collapse{
+	transform:translateY(-100px);
 }
 
 /* Footer */
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #000000;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
-	font: normal 16px sans-serif;
+	
 
 	padding: 2px 15px;
 	margin-top: -19px;
 	position:fixed;
+
 }
 
 .footer-distributed .footer-left p{
@@ -73,11 +125,19 @@ html, body {
 	font-size:18px;
 	font-weight: bold;
 	color:  #ffffff;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ft-2{
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .footer-distributed p.footer-links a{
 	display:inline-block;
-	line-height: 1.8;
+	line-height: 2.6;
 	text-decoration: none;
 	color:  inherit;
 }

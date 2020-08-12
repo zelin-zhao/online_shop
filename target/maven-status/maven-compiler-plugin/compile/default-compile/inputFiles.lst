@@ -13,12 +13,15 @@
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/CartItemController.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/ApplicationConfig.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/CartController.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/service/SalesOrderService.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Product.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/BillingAddress.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/PaymentAction.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/SecurityConfig.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/ProductController.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/ServerLogger.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/dao/SalesOrderDao.java
+/Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/OrderController.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Authorities.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/HomePageController.java
 /Users/zelin/eclipse-workspace/onlineShop/src/main/java/onlineShop/log/Logger.java

@@ -102,7 +102,7 @@
         </div>
     </div>
 
-    <div class="w3-third w3-container w3-margin-bottom" style="padding-top:100px">
+    <div class="w3-third w3-container w3-margin-bottom" style="padding-top:42 px">
         <img src="<c:url value="/resource/images/products/macbook.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
         <div class="w3-container w3-white" style="padding:84px 50px;">

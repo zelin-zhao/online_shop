@@ -7,6 +7,6 @@
 </head>
 
 <body>
-TBD
+Welcome! <br> Feel free to add your favorite DIY products as an administrator! <br> Feel free to buy them as many as you want!
 </body>
 </html>
