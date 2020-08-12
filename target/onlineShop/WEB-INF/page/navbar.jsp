@@ -19,9 +19,12 @@
 <nav class="navbar navbar-inverse">
     <div  class="container-fluid">
         <div class="navbar">
-            <img src="<c:url value="/resource/images/logo.png"/>" width="210px" height="130px" alt="logo-image"/>
+            <!-- <img src="<c:url value="/resource/images/logo.png"/>" width="210px" height="130px" alt="logo-image"/>-->
         </div>
 
+		<h1 class="nav-center">TRY</h1>
+		<h2 class="nav-center-low">SHOPPING + RELAXING</h2>
+		
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href=" <c:url value="/index" />">Home</a></li>
@@ -34,6 +37,7 @@
                         Product</a></li>
                 </security:authorize>
             </ul>
+            
 
             <ul class="nav navbar-nav navbar-right">
 

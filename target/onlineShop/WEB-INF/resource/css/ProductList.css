@@ -1,4 +1,7 @@
 @CHARSET "ISO-8859-1";
+html{
+	font-family: "Times New Roman", Times, serif;
+}
 #productList{
 	background-color: rgba(241,241,241);
 }
